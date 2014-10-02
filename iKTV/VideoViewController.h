@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 
-@interface VideoViewController : MPMoviePlayerViewController
+@interface VideoViewController : MPMoviePlayerViewController <UIAlertViewDelegate>
 
 @end
